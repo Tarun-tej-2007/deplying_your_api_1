@@ -1,8 +1,9 @@
 const express = require('express');
 const { resolve } = require('path');
-
+const dotenv=require('dotenv').config()
 const app = express();
 const port = 3010;
+
 
 app.use(express.static('static'));
 
